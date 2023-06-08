@@ -14,10 +14,16 @@ Essentially, a supertask is a **infinite** amount of actions being performed in 
 Mathematically, this procedure would be written as the following, assuming that the dimensions are $x=10$, $y=10$
 
 $$
-k_i = \left(10, 10\right) \quad i=0\\
-k_i = \left(\frac{k_{i-1}}{2}, k_{i-1}\right) \quad i=1\\
-\cdots\\
-k_i = \left(?, ?\right) \quad i = \infty\\
+k_i = \left(10, 10\right) \quad i=0
+$$
+$$
+k_i = \left(\frac{k_{i-1}}{2}, k_{i-1}\right) \quad i=1
+$$
+$$
+\cdots
+$$
+$$
+k_i = \left(?, ?\right) \quad i = \infty
 $$
 
 ## What does this program try to accomplish?
@@ -27,7 +33,7 @@ This program is a theoretical implementation of a supertask. It is not a
 The way it does this is defining a function, $f$ as such:
 
 $$
-f(x) = \frac{1}{2^{x}}\\
+f(x) = \frac{1}{2^{x}}
 $$
 
 It keeps track of a variable $k$, which starts at $k=1$. It firstly, waits
@@ -38,4 +44,6 @@ performs $k_n = f(k_n)$. It repeats this infinitely.
 # Limitations
 
 As supertasks are impossible in the real world, this is just a theoretical
-model. For example, the program will definently fail at around $10 \cdot 2^{1023}$ (or $898846567431157953864652595394512366808988489471153286367150405788663379027504815663542386612037680105600569399356966788293948844072083112464237153197370621888839467124327426381511098006230470597265414760425028844190753411712314407369565552704136185816752553422931491199736229692398581524176781648121120686080$) iterations.
+model. The program uses floating point accuracy, defined by the specification IEEE 754. Thus, it can only have around $5\cdot10^{-324}$ decimal points.
+
+Obviously, this doesn't happen in real life. $5 \cdot 10^{-324}$ is *not* the smallest number! (You could go into ZFC set theory and ordinals/cardinals, but I won't.)
