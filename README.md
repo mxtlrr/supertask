@@ -78,4 +78,10 @@ We can do this infinitely. Thus, $A$ is countable.
 As supertasks are impossible in the real world, this is just a theoretical
 model. The program uses floating point accuracy, defined by the specification IEEE 754. Thus, it can only have around $5\cdot10^{-324}$ decimal points.
 
-Obviously, this doesn't happen in real life. $5 \cdot 10^{-324}$ is *not* the smallest number! (You could go into ZFC set theory and ordinals/cardinals, but I won't.)
+Obviously, this doesn't happen in real life. $5 \cdot 10^{-324}$ is *not* the smallest number! (You could go 
+into ZFC set theory and ordinals/cardinals, but I won't.)
+
+
+# Demo
+
+https://github.com/mxtlrr/supertask/assets/117592709/adba80f5-09a0-4125-b84c-69cd67ca8806
