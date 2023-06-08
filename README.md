@@ -51,6 +51,7 @@ Countable sets are sets that have 1:1 correspondence to $\mathbb{N}_0$. If you r
 
 Assume a well-ordered set, $A$. Assume that the $n$-th element can be
 evaluated via $|A|_n$.
+
 $$
 A = \{1, 0.25, 0.125, 0.0625,\dots\}
 $$
