@@ -49,14 +49,14 @@ No. It isn't. By definition, a supertask, is:
 
 Countable sets are sets that have 1:1 correspondence to $\mathbb{N}_0$. If you really want a proof:
 
-We can define a set, $A$, that is all numbers we deal with.
-
+Assume a well-ordered set, $A$. Assume that the $n$-th element can be
+evaluated via $|A|_n$.
 $$
 A = \{1, 0.25, 0.125, 0.0625,\dots\}
 $$
 
-We can assign a value from $\mathbb{N}_0$ to each element of $A$:
-
+To prove that set $A$ is a countable set, we can assign a element from $A$ to an element of $\mathbb{N}_0$ without overlap (which is the definition
+of a countable task):
 <!-- i fucking hate having to do this -->
 <!-- but github is so wacky -->
 $$
@@ -71,15 +71,18 @@ $$
 \dots
 $$
 
-We can do this infinitely. Thus, $A$ is countable.
+This process can be done infinitely many times. Thus, $A$ is countable,
+and we can define this as a supertask.
+
+## Why are you using $\mathbb{N}_0$?? $\mathbb{N}$ is better!!!
+Fuck you.
 
 # Limitations
 
 As supertasks are impossible in the real world, this is just a theoretical
 model. The program uses floating point accuracy, defined by the specification IEEE 754. Thus, it can only have around $5\cdot10^{-324}$ decimal points.
 
-Obviously, this doesn't happen in real life. $5 \cdot 10^{-324}$ is *not* the smallest number! (You could go 
-into ZFC set theory and ordinals/cardinals, but I won't.)
+Obviously, this doesn't happen in real life. $5 \cdot 10^{-324}$ is *not* the smallest number! (You could go into ZFC set theory and ordinals/cardinals, but I won't.)
 
 
 # Demo
