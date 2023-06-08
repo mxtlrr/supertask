@@ -43,6 +43,34 @@ It keeps track of a variable $k$, which starts at $k=1$. It firstly, waits
 1 minute and does $k_n = f(k)$. Then, it waits half that time (30 sec) and
 performs $k_n = f(k_n)$. It repeats this infinitely.
 
+## But this isn't a supertask!! it's an X!!!
+No. It isn't. By definition, a supertask, is:
+> a **COUNTABLY** INFINITE number of tasks in a **FINITE** interval of time.
+
+Countable sets are sets that have 1:1 correspondence to $\mathbb{N}_0$. If you really want a proof:
+
+We can define a set, $A$, that is all numbers we deal with.
+$$
+A = \{1, 0.25, 0.125, 0.0625,\dots\}
+$$
+
+We can assign a value from $\mathbb{N}_0$ to each element of $A$:
+
+<!-- i fucking hate having to do this -->
+<!-- but github is so wacky -->
+$$
+0 \longrightarrow 1
+$$
+
+$$
+1 \longrightarrow 0.25
+$$
+
+$$
+\dots
+$$
+
+We can do this infinitely. Thus, $A$ is countable.
 
 # Limitations
 
