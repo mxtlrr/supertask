@@ -16,12 +16,15 @@ Mathematically, this procedure would be written as the following, assuming that 
 $$
 k_i = \left(10, 10\right) \quad i=0
 $$
+
 $$
 k_i = \left(\frac{k_{i-1}}{2}, k_{i-1}\right) \quad i=1
 $$
+
 $$
 \cdots
 $$
+
 $$
 k_i = \left(?, ?\right) \quad i = \infty
 $$
