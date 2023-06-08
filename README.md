@@ -50,6 +50,7 @@ No. It isn't. By definition, a supertask, is:
 Countable sets are sets that have 1:1 correspondence to $\mathbb{N}_0$. If you really want a proof:
 
 We can define a set, $A$, that is all numbers we deal with.
+
 $$
 A = \{1, 0.25, 0.125, 0.0625,\dots\}
 $$
